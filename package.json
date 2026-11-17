@@ -1,0 +1,12 @@
+{
+  "name": "quranic-core-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quranic Core static website for Cloudflare Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/test-ask.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
